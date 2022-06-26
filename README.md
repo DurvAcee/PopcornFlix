@@ -26,5 +26,40 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-1. Loading Screen :-
+## 1. Home Screen :-
 ![Loading Screen](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/1.homescreen.png?raw=true "Loading Screen")
+
+## 2. Sign-in Screen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/2.sign-in.png?raw=true)
+
+## 3. Welcome Screen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/3.welcome-screen.png?raw=true)
+
+## 4. Landing Page Screen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/4.landing-page.png?raw=true)
+
+## 5. Landing Page - 2 Screen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/5.landing-page-2.png?raw=true)
+
+## 6. Landing Page - 3 Screen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/6.landing-page-3.png?raw=true)
+
+## 7. Movies / Series Info Screen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/7.movies-series-info.png?raw=true)
+
+## 8. Add to Watchlist Screen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/8.adding-show-to-watchlist.png?raw=true)
+
+## 9. Watchlist Screen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/9.watchlist.png?raw=true)
+
+## 10. Stream Movie / Series creen :-
+![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/10.watching-show.png?raw=true)
+
+
+
+
+
+
+
+
