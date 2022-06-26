@@ -32,7 +32,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## 9. Watchlist Screen :-
 ![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/9.watchlist.png?raw=true)
 
-## 10. Stream Movie / Series creen :-
+## 10. Stream Movie / Series Screen :-
 ![Alt Text](https://github.com/DurvAcee/PopcornFlix/blob/main/Screenshots%20of%20Project%20Demo/10.watching-show.png?raw=true)
 
 ## Development server
