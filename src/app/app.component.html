@@ -1,0 +1,61 @@
+<!-- <app-home></app-home> -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Flix
+    </title>
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+ 
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  
+</head>
+
+<body>
+<!-- NAV -->
+<div class="nav-wrapper">
+    <div class="container">
+        <div class="nav">
+            <a href="#" class="logo">
+                <i class='bx bx-movie-play bx-tada main-color'></i>PopcornFl<span class="main-color">i</span>x
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+              
+                <ng-container *ngIf = "users">
+              <input #mname type = "text" size="25" placeholder=" Search Movie or TV Show" style="color: aliceblue;"  (keyup.enter) = "searchbox(mname.value)"> <a type = "button"> <i class='bx bx-search'>  &nbsp; &nbsp; </i>  </a>&nbsp;&nbsp;&nbsp;
+                </ng-container>
+                <li><a routerLink="browse">Home</a></li>
+
+                <ng-container *ngIf = "users">
+                <li><a routerLink="mylist">My List</a></li>
+                </ng-container>
+                <li>
+
+                    <ng-container *ngIf="!users">
+                        <a routerLink="sign-in" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                        </ng-container>
+                        <ng-container *ngIf="users">
+                        <a (click) = "signout()" class="btn btn-hover">
+                            <span>Sign Out</span>
+                        </a>
+                        </ng-container>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+     <!-- END NAV -->
+</body>
+
+
+<router-outlet></router-outlet>
+
